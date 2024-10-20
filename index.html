@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warning - Drunk Memer</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Feather Icons CDN -->
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <div class="warning-container">
         <div class="warning-content">
-            <h1>⚠️ Warning: Memes Ahead!</h1>
+            <!-- Icon placeholder -->
+            <i data-feather="alert-triangle" class="warning-icon"></i>
+            <h1>Warning: Memes Ahead!</h1>
             <p>
                 Everything you are about to see is sourced from multiple subreddits.
                 Some content may be NSFW, weird, or just plain hilarious. Proceed at your own discretion!
@@ -19,5 +23,10 @@
             </button>
         </div>
     </div>
+
+    <script>
+        // Activate Feather icons
+        feather.replace();
+    </script>
 </body>
 </html>
